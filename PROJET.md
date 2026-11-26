@@ -11,4 +11,4 @@
 | Lancer | `npm run dev` |
 
 ## Stories réalisées
-_(aucune pour l'instant)_
+- #2 — Ajouter mes tâches du jour : saisir une tâche (titre obligatoire) et retrouver la liste du jour, sans connexion.
