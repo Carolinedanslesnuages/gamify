@@ -9,6 +9,7 @@ const liensEvitement = [
   { id: 'contenu', text: 'Contenu' },
   { id: 'pied-de-page', text: 'Pied de page' },
 ]
+const liensRapides = [{ label: 'Mes tâches du jour', to: '/taches', icon: 'fr-icon-list-unordered' }]
 </script>
 
 <template>
@@ -18,6 +19,7 @@ const liensEvitement = [
     service-description=""
     :logo-text="logoText"
     home-to="/"
+    :quick-links="liensRapides"
   />
   <EtatConnexion />
   <MiseAJour />
